@@ -1,36 +1,35 @@
-# Scripts Úteis
+# Useful Scripts
 
-Este repositório contém uma coleção de scripts úteis criados em Python para automação de tarefas comuns. Cada script é projetado para realizar uma tarefa específica e pode ser facilmente adaptado às suas necessidades.
+This repository contains a collection of useful scripts created in Python for automating common tasks. Each script is designed to perform a specific task and can be easily adapted to your needs.
 
-## Lista de Scripts
+## List of Scripts
 
-1. `renomear_arquivos_por_data.py`:
-   - Descrição: Este script renomeia os arquivos em uma pasta com base na data de criação.
-   - Uso: Substitua o caminho da pasta de origem na variável `pasta_origem`.
+### 1. Rename Files by Date
+- **Description**: This script renames files in a folder based on their creation date.
+- **Usage**: Replace the source folder path in the `source_folder` variable.
 
-2. `renomear_arquivos_com_copia.py`:
-   - Descrição: Este script renomeia arquivos, adicionando "_copia" em caso de colisão de nomes.
-   - Uso: Substitua o caminho da pasta de origem na variável `pasta_origem`.
+### 2. Rename Files with Copy
+- **Description**: This script renames files, adding "_copy" in case of name collisions.
+- **Usage**: Replace the source folder path in the `source_folder` variable.
 
-3. `mover_e_renomear_arquivos_jpg.py`:
-   - Descrição: Este script move arquivos JPG de uma pasta e suas subpastas, renomeando em caso de colisão de nomes.
-   - Uso: Substitua os caminhos da pasta de origem e de destino nas variáveis `pasta_origem` e `pasta_destino`.
+### 3. Move and Rename JPG Files
+- **Description**: This script moves JPG files from a folder and its subfolders, renaming them in case of name collisions.
+- **Usage**: Replace the source and destination folder paths in the `source_folder` and `destination_folder` variables.
 
-## Como Usar
+## How to Use
 
-1. Clone este repositório para o seu sistema:
+1. Clone this repository to your system:
+   
+   ```shell
+   git clone https://github.com/your-username/useful-scripts.git
 
+Navigate to the folder containing the scripts:
 
-2. Navegue até a pasta que contém os scripts:
+shell
+Copy code
+cd useful-scripts
+Run the scripts using the Python interpreter. For example:
 
-
-3. Execute os scripts usando o interpretador Python. Por exemplo:
-
-
-Lembre-se de fazer um backup dos arquivos antes de executar os scripts, pois eles podem realizar alterações permanentes nos arquivos.
-
-## Contribuições
-
-Sinta-se à vontade para contribuir adicionando novos scripts ou aprimorando os scripts existentes. Basta criar um fork do repositório, fazer suas alterações e enviar um pull request.
-
-Esperamos que esses scripts sejam úteis para automatizar tarefas e simplificar o trabalho diário. Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+shell
+Copy code
+python rename_files_by_date.py
