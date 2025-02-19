@@ -1,7 +1,7 @@
 import os
 import datetime
 
-pasta_origem = "Z:\Minhas_imagens\Geral"  # Substitua pelo caminho da pasta de origem
+pasta_origem = "c:\Minhas_imagens\Geral"  # Substitua pelo caminho da pasta de origem
 
 def renomear_arquivo_com_verificacao(nome_arquivo, pasta_origem):
     caminho_completo = os.path.join(pasta_origem, nome_arquivo)
