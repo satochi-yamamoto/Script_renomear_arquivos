@@ -1,7 +1,7 @@
 import os
 import datetime
 
-pasta_origem = "Z:\Minhas_imagens\Geral"  # Substitua pelo caminho da pasta de origem
+pasta_origem = "c:\Minhas_imagens\Geral"  # Substitua pelo caminho da pasta de origem
 
 # Verifique se a pasta de origem existe
 if not os.path.exists(pasta_origem):
